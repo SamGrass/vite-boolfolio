@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'home'
+    name: 'header'
   }
 </script>
 
@@ -15,10 +15,12 @@ export default {
 
 <style lang="scss" scoped>
 ul {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
+    
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  list-style: none;
     
 }
 </style>

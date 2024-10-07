@@ -1,5 +1,5 @@
 <script >
-import Header from './components/Header.vue';
+import Header from './views/components/Header.vue';
 
   export default {
     components: {
@@ -9,14 +9,21 @@ import Header from './components/Header.vue';
 </script>
 
 <template>
+  
   <div class="container">
-    <div class="card">
-      <Header />
-      <router-view></router-view>
+    <div>
+      <h1>BOOLFOLIO FRONT</h1>
+      <div class="card">
+        <Header />
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-
+h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
 </style>
