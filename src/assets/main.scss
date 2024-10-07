@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(11, 10, 25);
+  color: white;
+}
+
+a{
+  color: rgba(255, 255, 255, 0.676);
+  text-decoration: none;
+  &:hover,
+  .active {
+    color: white;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 0.5em;
+  padding: 1rem 3rem;
+  max-width: 1200px;
+}
