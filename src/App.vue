@@ -1,9 +1,9 @@
 <script >
-import Header from './views/components/Header.vue';
+import Navbar from './views/components/Navbar.vue';
 
   export default {
     components: {
-      Header,
+      Navbar,
     }
   }
 </script>
@@ -14,7 +14,7 @@ import Header from './views/components/Header.vue';
     <div>
       <h1>BOOLFOLIO FRONT</h1>
       <div class="card">
-        <Header />
+        <Navbar />
         <router-view></router-view>
       </div>
     </div>
